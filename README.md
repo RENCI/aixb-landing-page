@@ -28,4 +28,4 @@ When you're changes are complete, click the "Commit changes ... " button. This w
  - Commit directly to the `content` branch
  - Create a **new branch** for this commit and start a pull request
 
-Please select the first option (Commit directly to the `content` branch). When you have completed changes to all the necessary files, create a pull request to merge the `content` branch to the `main` branch. Our team will be notified of the pull request and will review and merge the requested changes.
+Please select the first option (Commit directly to the `content` branch). When you have completed changes to all the necessary files, create a pull request to merge the `content` branch to the `main` branch (make sure that you are creating a pull request to the `main` branch of the `RENCI/aixb-landing-page` repository). Our team will be notified of the pull request and will review and merge the requested changes.
