@@ -15,6 +15,7 @@ import { frontmatter as tools } from '../content/tools.mdx'
 import Funding from '../content/funding.mdx'
 import License from '../content/license.mdx'
 import Events from '../content/events.mdx'
+import Projects from '../content/projects.mdx'
 
 interface Tool {
   title: string;
@@ -26,12 +27,13 @@ interface Tool {
 export default function Home() {
 
   return (
-    <MainGrid numberOfRows={7}>
+    <MainGrid numberOfRows={8}>
       <Navigation sections={[
         "Overview",
         "Events",
         "Tools",
         "Resources",
+        "Projects",
         "Funding",
         "License",
         "More Information",
@@ -66,16 +68,19 @@ export default function Home() {
       <Section title="Resources" index={3}>
         <Resources />
       </Section>
-      <Section title="Funding" index={4}>
+      <Section title="Projects" index={4}>
+        <Projects />
+      </Section>
+      <Section title="Funding" index={5}>
         <Funding />
       </Section>
-      <Section title="License" index={5}>
+      <Section title="License" index={6}>
         <License />
         <div style={{height: '300px'}}>
 
         </div>
       </Section>
-      <Section title="More Information" index={6}>
+      <Section title="More Information" index={7}>
         <ContactForm />
       </Section>
     </MainGrid>
