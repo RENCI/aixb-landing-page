@@ -7,6 +7,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     h3:  ({ children }) => <h5>{children}</h5>,
     h4:  ({ children }) => <h6>{children}</h6>,
     ul: ({children}) => <ul style={{marginLeft: '1.5rem'}}>{children}</ul>,
+    p:  ({ children }) => <p style={{marginBottom: '1rem'}}> {children}</p>,
     ...components,
   }
 }
